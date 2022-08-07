@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+  }
+  
+  .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  a {
+  /*   width: 150px; */
+    border: 1px solid red;
+    color: #ECB390;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  .box {
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    margin: 16px;
+  }
+  
+  .box1 {
+    background: #94B49F;
+  }
+  
+  .box2 {
+    background: #CEE5D0;
+  }
+  
+  .box3 {
+    background: #ECB390;
+  }
+  
+  /* display: block */
+  /* display: inline  === <a> <span>*/

@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  position: relative;
+}
+
+/* position: static / relative / absolute / fixed / sticky */
+
+.box-container {
+/*   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+  border: 1px solid lightgray;
+  height: 1000px;
+}
+
+a {
+/*   width: 150px; */
+/*   border: 1px solid red; */
+  color: #ECB390;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.box {
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+  margin: 16px;
+  text-align: center;
+  line-height: 64px;
+  color: white;
+}
+
+.box1 {
+  background: #94B49F;
+}
+
+.box2 {
+  background: #CEE5D0;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.box3 {
+  background: #ECB390;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  z-index: 1;
+}
+
+/* display: block */
+/* display: inline  === <a> <span>*/
