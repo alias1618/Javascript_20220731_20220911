@@ -88,16 +88,22 @@ section {
   width: 480px;
   line-height: 80px;
   margin: 24px 0;
+  letter-spacing: -2px;
 }
 
 .explore-btn {
   font-size: 12px;
   cursor: pointer;
+  width: 110px;
 }
 
 .explore-btn:hover::after {
   bottom: 0px;
   opacity: 1;
+}
+
+.explore-btn:hover::before {
+  width: 100%;
 }
 
 .explore-btn::after {
@@ -107,13 +113,15 @@ section {
   bottom: -10px;
   opacity: 0;
   transition: all 0.5s;
-  /* transform: translateX(10px); */
 }
 
-/* <p class="small-heading"></p>
-<h1>
-  Live Below Water
-</h1>
-<div class="explore-btn">
-  Explore more
-</div> */
+.explore-btn::before {
+  content: "";
+  width: 0%;
+  height: 1px;
+  background: white;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  transition: all 0.5s;
+}
