@@ -31,7 +31,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 24px;
+  padding: 56px;
 }
 
 .nav-items {
@@ -76,7 +76,18 @@ section {
   position: absolute;
   bottom: 0;
   left: 0;
-  padding: 24px;
+  padding: 56px;
+}
+
+.small-heading {
+  font-size: 14px;
+}
+
+.left-container h1 {
+  font-size: 80px;
+  width: 480px;
+  line-height: 80px;
+  margin: 24px 0;
 }
 
 /* <p class="small-heading"></p>
