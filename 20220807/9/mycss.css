@@ -3,6 +3,7 @@
   margin: 0px;
   padding: 0px;
   font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -11,10 +12,11 @@ body {
 
 section {
   width: 100%;
+  max-width: 1200px;
 }
 
 .section1 {
-  height: 600px;
+  height: 720px;
   background: url("https://images.unsplash.com/photo-1617925109341-2b99305cdee2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80");
   background-position: center;
 }
@@ -28,7 +30,8 @@ section {
   z-index: 999;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 24px;
 }
 
 .nav-items {
@@ -65,3 +68,21 @@ section {
   background: url("https://ourocean2022.pw/wp-content/uploads/2022/01/Our-Ocean-Palau-22-Logo-white.png");
   background-size: contain;
 }
+
+/* Section One */
+
+.left-container {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 24px;
+}
+
+/* <p class="small-heading"></p>
+<h1>
+  Live Below Water
+</h1>
+<div class="explore-btn">
+  Explore more
+</div> */
