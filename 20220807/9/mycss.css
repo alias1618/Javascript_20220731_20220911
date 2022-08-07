@@ -90,6 +90,26 @@ section {
   margin: 24px 0;
 }
 
+.explore-btn {
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.explore-btn:hover::after {
+  bottom: 0px;
+  opacity: 1;
+}
+
+.explore-btn::after {
+  content: "+";
+  position: absolute;
+  left: 100px;
+  bottom: -10px;
+  opacity: 0;
+  transition: all 0.5s;
+  /* transform: translateX(10px); */
+}
+
 /* <p class="small-heading"></p>
 <h1>
   Live Below Water
