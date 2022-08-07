@@ -41,15 +41,27 @@ section {
   font-size: 12px;
 }
 
+.search-btn {
+  margin: 0 16px;
+}
+
 .live-btn {
-  background: red;
+  background: rgba(1, 1, 1, 0.25);
   padding: 8px 16px;
   font-size: 12px;
   border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.live-btn:hover {
+  background: rgba(1, 1, 1, 0.5);
 }
 
 .logo {
   width: 120px;
   height: 40px;
-  background: blue;
+  /* background-repeat: no-repeat; */
+  background: url("https://ourocean2022.pw/wp-content/uploads/2022/01/Our-Ocean-Palau-22-Logo-white.png");
+  background-size: contain;
 }
