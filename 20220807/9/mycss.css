@@ -12,13 +12,15 @@ body {
 
 section {
   width: 100%;
-  max-width: 1200px;
+  /* max-width: 1200px; */
 }
 
 .section1 {
-  height: 720px;
+  height: 1000px;
+  width: 100%;
   background: url("https://images.unsplash.com/photo-1617925109341-2b99305cdee2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80");
   background-position: center;
+  background-size: cover;
 }
 
 .nav {
@@ -124,4 +126,28 @@ section {
   bottom: -2px;
   left: 0;
   transition: all 0.5s;
+}
+
+.right-container {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 56px;
+  display: flex;
+  align-items: center;
+}
+
+.right-container h3 {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.right-container h2 {
+  font-size: 24px;
+}
+
+.right-container i {
+  font-size: 56px;
+  margin-left: 24px;
 }
